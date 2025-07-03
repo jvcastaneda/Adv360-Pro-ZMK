@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 set -eu
+# Check if west is installed
 
 PWD=$(pwd)
 TIMESTAMP="${TIMESTAMP:-$(date -u +"%Y%m%d%H%M")}"
